@@ -1,0 +1,69 @@
+body {
+    color: #484343;
+    background: #f8f8f8;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+}
+
+.footer {
+    color: #969696;
+    font-size: 15px;
+    /*	position: fixed;
+        left: 0; bottom: 0;*/
+    padding: 10px;
+    width: 98%;
+}
+
+td {
+    border: 2px solid #4483e2;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+table {
+    border: 4px solid #4483e2;
+    border-collapse: collapse;
+}
+
+.linkToBookOrder {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.linkToBookOrder a:link {
+    color: #4483e2;
+    text-decoration: none;
+}
+
+.linkToBookOrder a:visited {
+    color: #4483e2;
+}
+
+.linkToBookOrder a:hover {
+    color: #09607c;
+}
+
+.linkToBookOrder a:active {
+    color: #f20e56;
+}
+
+.menu li a:link {
+    color: #4483e2;
+    text-decoration: none;
+}
+
+.menu li a:visited {
+    color: #4483e2;
+}
+
+.menu li a:hover {
+    color: #09607c;
+}
+
+.menu li a:active {
+    color: #f20e56;
+}
