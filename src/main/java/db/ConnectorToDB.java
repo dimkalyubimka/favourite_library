@@ -1,7 +1,8 @@
 package db;
 
-import com.mysql.cj.jdbc.MysqlDataSource;
+
 import dao.DaoExceptions.DataBaseExceptions;
+import org.postgresql.ds.PGSimpleDataSource;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -14,11 +15,11 @@ public final class ConnectorToDB {
     private final DataSource dataSource;
 
     public ConnectorToDB() throws DataBaseExceptions {
-        dataSource = getMysqlDataSource();
+        dataSource = getDataSource();
     }
 
-    public static DataSource getMysqlDataSource() {
-        MysqlDataSource dataSource = new MysqlDataSource();
+    public static DataSource getDataSource() {
+        PGSimpleDataSource dataSource = new PGSimpleDataSource();
         dataSource.setServerName("localhost");
         dataSource.setPortNumber(5432);
         dataSource.setDatabaseName("public");

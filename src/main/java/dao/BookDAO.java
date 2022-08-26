@@ -1,12 +1,12 @@
 package dao;
 
-import Executor.Executor;
+import executor.Executor;
 import dao.bookHandlers.BookInstanceIdHandler;
 import dao.bookHandlers.BookInstancesIdListHandler;
 import dao.bookHandlers.BookListHandler;
 import dao.bookHandlers.BookHandler;
 import entity.Book;
-import Executor.ResultHandler;
+import executor.ResultHandler;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;

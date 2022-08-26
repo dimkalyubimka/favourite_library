@@ -1,7 +1,7 @@
 package Servlets;
 
-import Enums.UserRole;
-import Services.LoginService;
+import enums.UserRole;
+import services.LoginService;
 import jakarta.servlet.annotation.WebServlet;
 
 import javax.servlet.ServletException;

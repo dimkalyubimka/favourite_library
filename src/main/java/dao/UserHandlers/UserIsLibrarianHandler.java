@@ -1,6 +1,6 @@
 package dao.UserHandlers;
 
-import Executor.ResultHandler;
+import executor.ResultHandler;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

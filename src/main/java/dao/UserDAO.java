@@ -1,7 +1,7 @@
 package dao;
 
-import Enums.UserRole;
-import Executor.Executor;
+import enums.UserRole;
+import executor.Executor;
 import dao.UserHandlers.UserHandler;
 import dao.UserHandlers.UserIsLibrarianHandler;
 import dao.UserHandlers.UserListHandler;
@@ -11,7 +11,7 @@ import java.sql.*;
 import java.util.List;
 import java.util.Optional;
 
-import Executor.ResultHandler;
+import executor.ResultHandler;
 
 public class UserDAO {
 

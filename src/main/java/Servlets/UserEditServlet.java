@@ -1,6 +1,6 @@
 package Servlets;
 
-import Services.UserService;
+import services.UserService;
 import jakarta.servlet.annotation.WebServlet;
 
 import javax.servlet.ServletException;

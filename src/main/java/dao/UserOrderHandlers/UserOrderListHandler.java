@@ -1,7 +1,7 @@
 package dao.UserOrderHandlers;
 
-import Enums.UserOrderStatus;
-import Executor.ResultHandler;
+import enums.UserOrderStatus;
+import executor.ResultHandler;
 import dao.BookDAO;
 import dao.UserDAO;
 import entity.Book;
@@ -12,7 +12,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class UserOrderListHandler implements ResultHandler<List<UserOrder>> {
     private static UserOrderListHandler instance;

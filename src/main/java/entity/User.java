@@ -1,6 +1,6 @@
 package entity;
 
-import Enums.UserRole;
+import enums.UserRole;
 
 import java.util.Objects;
 

@@ -1,6 +1,6 @@
 package entity;
 
-import Enums.UserOrderStatus;
+import enums.UserOrderStatus;
 
 import java.util.Objects;
 

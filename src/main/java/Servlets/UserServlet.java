@@ -1,6 +1,6 @@
 package Servlets;
 
-import Services.UserService;
+import services.UserService;
 import entity.User;
 import jakarta.servlet.annotation.WebServlet;
 

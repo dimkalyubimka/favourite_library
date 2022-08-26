@@ -1,7 +1,7 @@
 package dao.UserHandlers;
 
-import Enums.UserRole;
-import Executor.ResultHandler;
+import enums.UserRole;
+import executor.ResultHandler;
 import entity.User;
 
 import java.sql.ResultSet;

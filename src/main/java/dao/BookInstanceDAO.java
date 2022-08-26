@@ -1,9 +1,9 @@
 package dao;
 
-import Executor.Executor;
+import executor.Executor;
 import dao.BookInstanceHandlers.BookInstanceHandler;
 import entity.BookInstance;
-import Executor.ResultHandler;
+import executor.ResultHandler;
 import java.sql.SQLException;
 import java.util.Optional;
 
